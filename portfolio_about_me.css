@@ -1,3 +1,16 @@
+body{
+	background-color: #C975B1;
+	margin: 5px;
+	padding: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	line-height: 1.5;
+
+}
+a {
+text-decoration: none;
+}
+
 h1{
 	color: white;
 	font-style: normal;
@@ -6,7 +19,7 @@ h1{
 	font-family: Courier;
 
 	background-image: url('https://wallpapercave.com/wp/wp2777444.jpg') ;
-	margin: -50px 300px 12px;
+	margin: 20px 300px 12px;
 	border: solid 5px;
 }
 	.combined {
@@ -42,9 +55,7 @@ h2{
 	font-size: 30px;
 	font-family: fantasy;
 }
-a {
-text-decoration: none;
-}
+
 img {
 	border-radius: 999em;
 	height: 280px;
@@ -61,27 +72,55 @@ img {
   max-width: 40%;
   margin: 0 2.5%;
 }
+
+
+img {
+	border-radius: 999em;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
 h3{
 	color: white;
 	font-weight: bold;
-	margin-top: -30px;
-	font-size: 20px;
+	margin-top: 10px;
+	font-size: 25px;
 	font-family: fantasy;
 }
 
-
-body{
-	background-color: #C975B1;
-	margin: 100px;
-	padding: auto;
-
+h4{
+	color: white;
+	font-weight: bold;
+	margin: auto;
+	font-size: 18px;
+	font-family: fantasy;
 }
-
 p{
 	color: White;
   font-family: monospace;
 	text-indent: 50px;
 	font-size: 18px;
+	margin-bottom: 27px;
+	margin-top: 0px;
+}
 
+li{
+	color: white;
 
+}
+
+ul{
+	list-style-type: circle;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid white;
+
+  margin: 30px 0;
+}
+nav {
+  color: white;
+  text-align: center;
 }
